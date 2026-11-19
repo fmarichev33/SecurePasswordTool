@@ -25,6 +25,7 @@ def calculate_entropy(password):
     E = L * math.log2(N)
     return E
 
+
 def format_time(seconds):
     """Переводит секунды в человекочитаемый формат"""
     if seconds < 1:
